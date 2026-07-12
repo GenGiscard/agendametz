@@ -1,0 +1,155 @@
+{
+  "_doc": "Activités récurrentes vérifiées (juillet 2026). days: 0=lundi ... 6=dimanche. from/to = période de validité. Modifie librement.",
+  "activites": [
+    {
+      "name": "Constellations — Pierres Numériques + mapping cathédrale",
+      "days": [3, 4, 5],
+      "start": "22:00", "end": "00:15",
+      "place": "Cathédrale Saint-Étienne", "address": "Place d'Armes, 57000 Metz",
+      "url": "https://www.constellations-metz.fr/",
+      "price": "GRATUIT", "from": "2026-06-25", "to": "2026-09-05",
+      "tags": ["art", "photo", "cinema", "social", "chill"],
+      "why": "Parcours nocturne d'art numérique, 6 mappings sur la cathédrale (22h30)."
+    },
+    {
+      "name": "Fontaines Dansantes — Lac aux Cygnes",
+      "days": [3, 4, 5, 6],
+      "start": "22:30", "end": "23:30",
+      "place": "Lac aux Cygnes, Plan d'eau", "address": "Boulevard Poincaré, 57000 Metz",
+      "url": "https://metz.fr/agenda/fiche-40750.php",
+      "price": "GRATUIT", "from": "2026-06-12", "to": "2026-09-27",
+      "tags": ["photo", "art", "chill", "social"],
+      "why": "Son & lumière « La Magie s'invite à Metz », séances 22h30 et 23h (22h dès le 30/07)."
+    },
+    {
+      "name": "Guinguette Les Frigos — food court & concerts",
+      "days": [2, 3, 4, 5, 6],
+      "start": "17:00", "end": "22:00",
+      "place": "Les Frigos", "address": "1 Rue du Général Ferrié, 57000 Metz",
+      "url": "https://metz.fr/lieux/lieu-4191.php",
+      "price": "Entrée libre", "from": "2026-05-06", "to": "2026-09-06",
+      "tags": ["nourriture", "bar", "social", "chill", "rencontre"],
+      "why": "Le biergarten urbain de Metz : food court local, concerts, fête ven/sam, marché le dimanche (11h-22h)."
+    },
+    {
+      "name": "Metz Plage — sport & détente au plan d'eau",
+      "days": [5, 6],
+      "start": "11:00", "end": "19:00",
+      "place": "Plan d'eau", "address": "Quai des Régates, 57000 Metz",
+      "url": "https://metz.fr/agenda/",
+      "price": "GRATUIT", "from": "2026-07-04", "to": "2026-08-16",
+      "tags": ["sport", "chill", "social"],
+      "why": "Sable, transats, initiations sportives gratuites, baignade."
+    },
+    {
+      "name": "La TAKE OFF by BASSMAXX — DJ & planches",
+      "days": [3, 4],
+      "start": "19:00", "end": "23:00",
+      "place": "L'Aérogare station Lothaire", "address": "69 Rue Lothaire, 57000 Metz",
+      "url": "https://www.tourisme-metz.com/fr/details/838166409-l-aerogare-station-lothaire",
+      "price": "Entrée libre, conso ~15-25€", "from": "2026-07-16", "to": "2026-08-07",
+      "tags": ["bar", "social", "rencontre", "chill"], "verify": true,
+      "why": "DJ, cadre chic, planches apéritives — horaires à confirmer au 03 74 47 26 56."
+    },
+    {
+      "name": "Ramen japonais — Kyôdaï Ramen",
+      "days": [1, 2, 3, 4, 5],
+      "start": "19:00", "end": "21:00",
+      "place": "Kyôdaï Ramen", "address": "9 Rue Sainte-Marie, 57000 Metz",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ky%C3%B4da%C3%AF+Ramen+Metz",
+      "price": "~15-20€",
+      "tags": ["japon", "asie", "nourriture", "chill"],
+      "why": "Meilleur ramen de Metz (4,7/5, 812 avis), nouilles maison. Réserver : 03 87 76 21 98."
+    },
+    {
+      "name": "Dîner pan-asiatique — Kung Pao",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "start": "19:30", "end": "21:30",
+      "place": "Kung Pao", "address": "43 Rue de la Tête d'Or, 57000 Metz",
+      "url": "https://www.google.com/maps/search/?api=1&query=Kung+Pao+Metz",
+      "price": "~15-25€",
+      "tags": ["asie", "japon", "nourriture", "chill"],
+      "why": "4,8/5 (262 avis), donburi/poke/tempura, ouvert le dimanche soir."
+    },
+    {
+      "name": "Dîner cambodgien — Angkor Wat",
+      "days": [0, 1, 2, 3, 4],
+      "start": "18:00", "end": "19:45",
+      "place": "Angkor Wat Bubble Tea", "address": "12 Rue Goussaud, 57000 Metz",
+      "url": "https://www.google.com/maps/search/?api=1&query=Angkor+Wat+Bubble+Tea+Metz",
+      "price": "~15-20€",
+      "tags": ["asie", "vietnam", "nourriture", "chill"],
+      "why": "Familial, 4,9/5 (279 avis) — attention ferme à 20h."
+    },
+    {
+      "name": "Apéro cocktails — Bottle Bar",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "start": "18:30", "end": "20:30",
+      "place": "Bottle Bar", "address": "11 Rue du Faisan, 57000 Metz",
+      "url": "https://www.google.com/maps/search/?api=1&query=Bottle+Bar+Metz",
+      "price": "~10-20€",
+      "tags": ["bar", "rencontre", "social", "chill"],
+      "why": "Bar à vins & cocktails réputé pour son ambiance conviviale (4,8/5)."
+    },
+    {
+      "name": "Apéro jeux & arcade — Le Bonfire",
+      "days": [1, 2, 3, 4, 5, 6],
+      "start": "17:30", "end": "19:30",
+      "place": "Le Bonfire", "address": "7 bis Rue Sainte-Marie, 57000 Metz",
+      "url": "https://www.google.com/maps/search/?api=1&query=Le+Bonfire+Metz",
+      "price": "~10-15€",
+      "tags": ["bar", "social", "chill", "rencontre"],
+      "why": "Bar-arcade en centre-ville, bornes et jeux : brise-glace naturel."
+    },
+    {
+      "name": "Karaoké BOX privatif — soirée à la japonaise",
+      "days": [4, 5],
+      "start": "20:30", "end": "22:00",
+      "place": "Karaoké BOX Privatif", "address": "12 Rue Gambetta, 57000 Metz",
+      "url": "https://www.google.com/maps/search/?api=1&query=Karaok%C3%A9+BOX+Privatif+Metz",
+      "price": "~10-15€/pers/h",
+      "tags": ["japon", "chill", "social"],
+      "why": "Box privatif façon Japon (4,9/5). Réserver : 03 56 67 82 30."
+    },
+    {
+      "name": "Séance d'essai boxe/MMA — Fight Club Metz (à confirmer)",
+      "days": [0, 2],
+      "start": "18:30", "end": "20:00",
+      "place": "Fight Club Metz", "address": "Gymnase Cosec, 11 Rue du Dauphiné, 57070 Metz-Borny (≈3,5 km)",
+      "url": "https://www.google.com/maps/search/?api=1&query=Fight+Club+Metz+Borny",
+      "price": "Essai gratuit", "verify": true,
+      "tags": ["boxe", "mma", "combat", "sport"],
+      "why": "Club 5/5, lun/mer soir. Appeler avant (horaires d'été) : 06 74 23 48 09."
+    },
+    {
+      "name": "Ciné du soir au KLUB (VO)",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "start": "20:00", "end": "22:15",
+      "place": "Cinéma KLUB", "address": "5 Rue Fabert, 57000 Metz",
+      "url": "https://www.google.com/maps/search/?api=1&query=Cin%C3%A9ma+Klub+Metz",
+      "price": "~8-10€",
+      "tags": ["cinema", "film", "culture", "asie"],
+      "why": "Cinéma de centre-ville, VO/VOST — vérifier la séance du jour."
+    },
+    {
+      "name": "Shooting golden hour — Moyen Pont & Temple Neuf",
+      "days": [0, 1, 2, 3, 4, 5, 6],
+      "start": "20:45", "end": "22:00",
+      "place": "Moyen Pont / Temple Neuf", "address": "Île du Petit-Saulcy, 57000 Metz",
+      "url": "https://www.tourisme-metz.com/fr",
+      "price": "GRATUIT",
+      "tags": ["photo", "art", "chill"],
+      "why": "Le spot photo le plus iconique de Metz au coucher du soleil."
+    },
+    {
+      "name": "Speed Dating à Metz (vérifier la date & réserver)",
+      "days": [5],
+      "start": "20:00", "end": "22:00",
+      "place": "Bar lounge du centre (communiqué aux inscrits)", "address": "57000 Metz",
+      "url": "https://www.lespeeddating.com/77-rencontres-metz-celibataires-57-moselle-speeddating-57000",
+      "price": "~20-30€", "verify": true,
+      "tags": ["rencontre", "bar", "social"],
+      "why": "Soirées régulières par tranches d'âge — consulter l'agenda du site et s'inscrire."
+    }
+  ]
+}

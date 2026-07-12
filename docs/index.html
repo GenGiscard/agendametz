@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Metz Sorties IA — tableau de bord</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--nuit:#12162A;--encre:#1B2140;--encre2:#232A52;--jaumont:#EFC97A;--cuivre:#C97B4A;
+--brume:#98A0C6;--pierre:#EDEAE0;--ok:#7BC98F;--alerte:#E08A6D;--rail:#3A4272}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--nuit);color:var(--pierre);font-family:'Bricolage Grotesque',sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:0 18px 70px}
+header{padding:34px 0 14px}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cuivre)}
+h1{font-size:clamp(1.9rem,6vw,2.9rem);font-weight:750;line-height:1.03;letter-spacing:-.02em;margin:.35rem 0 .4rem}
+h1 em{font-style:normal;color:var(--jaumont)}
+.sub{color:var(--brume);font-size:.92rem}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0;border-top:1px solid var(--rail);border-bottom:1px solid var(--rail);padding:12px 0;align-items:center}
+#maj{font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--brume);flex:1;min-width:180px}
+a.btn{font-weight:650;font-size:.85rem;border-radius:10px;padding:10px 16px;text-decoration:none;transition:transform .12s}
+a.btn:hover{transform:translateY(-1px)}
+.b1{background:var(--jaumont);color:#241C08}
+.b2{background:var(--encre2);color:var(--pierre);border:1px solid var(--rail)}
+.days{display:flex;gap:8px;overflow-x:auto;padding:6px 0 4px;scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.day-tab{flex:none;background:var(--encre);border:1px solid var(--rail);border-radius:12px;padding:9px 14px;color:var(--brume);font-weight:600;font-size:.85rem;cursor:pointer;font-family:inherit}
+.day-tab .d{font-family:'JetBrains Mono',monospace;font-size:.68rem;display:block;color:var(--cuivre)}
+.day-tab.active{background:var(--jaumont);color:#241C08;border-color:var(--jaumont)}
+.day-tab.active .d{color:#7A5A1E}
+.timeline{margin-top:16px;border-left:2px solid var(--rail);padding-left:18px;display:flex;flex-direction:column;gap:14px}
+.card{position:relative;background:var(--encre);border:1px solid var(--rail);border-radius:14px;padding:16px}
+.card::before{content:"";position:absolute;left:-24px;top:22px;width:10px;height:10px;border-radius:50%;background:var(--jaumont);box-shadow:0 0 0 4px var(--nuit)}
+.time{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--jaumont)}
+.card h3{font-size:1.06rem;font-weight:700;margin:4px 0 6px;line-height:1.15}
+.place{font-size:.83rem;color:var(--brume)}
+.why{font-size:.86rem;opacity:.85;margin-top:8px;line-height:1.45;white-space:pre-line}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+.badge{font-family:'JetBrains Mono',monospace;font-size:.66rem;padding:3px 8px;border-radius:6px}
+.b-score{background:rgba(239,201,122,.14);color:var(--jaumont);border:1px solid rgba(239,201,122,.4);font-weight:700}
+.b-verif{background:rgba(224,138,109,.12);color:var(--alerte)}
+.b-lien a{color:var(--brume);text-decoration:none;border-bottom:1px dotted var(--brume)}
+.empty,.err{color:var(--brume);font-size:.9rem;padding:24px 0;text-align:center}
+.err{color:var(--alerte)}
+.footer{margin-top:34px;font-family:'JetBrains Mono',monospace;font-size:.66rem;color:var(--rail);letter-spacing:.08em;text-transform:uppercase;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="eyebrow">Metz centre · mis à jour chaque nuit · robot GitHub Actions</span>
+  <h1>Sorties <em>IA</em> — la semaine à Metz</h1>
+  <p class="sub">4 activités par soir, scorées selon le profil. Ce tableau de bord lit le même fichier que ton calendrier abonné.</p>
+</header>
+
+<div class="actions">
+  <span id="maj">Chargement…</span>
+  <a class="btn b1" id="btnWebcal" href="#">S'abonner (webcal)</a>
+  <a class="btn b2" href="metz.ics" download>Télécharger le .ics</a>
+</div>
+
+<nav class="days" id="dayTabs" aria-label="Jours"></nav>
+<section class="timeline" id="timeline"><p class="empty">Chargement du calendrier…</p></section>
+
+<p class="footer">gengiscard.github.io · données web à recouper avant déplacement</p>
+</div>
+
+<script>
+const JOURS=['Dimanche','Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi'];
+const MOIS=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let jours=[],actif=0;
+
+// lien webcal automatique depuis l'URL de la page
+$('btnWebcal').href='webcal://'+location.host+location.pathname.replace(/index\.html$/,'').replace(/\/?$/,'/')+'metz.ics';
+
+function unesc(s){return String(s??'').replace(/\\n/g,'\n').replace(/\\,/g,',').replace(/\\;/g,';').replace(/\\\\/g,'\\');}
+
+function parseICS(txt){
+  // déplier les lignes continuées, découper les VEVENT
+  const lignes=txt.replace(/\r\n[ \t]/g,'').split(/\r?\n/);
+  const events=[];let cur=null;
+  for(const l of lignes){
+    if(l==='BEGIN:VEVENT'){cur={};continue;}
+    if(l==='END:VEVENT'){if(cur)events.push(cur);cur=null;continue;}
+    if(!cur)continue;
+    const i=l.indexOf(':');if(i<0)continue;
+    const cle=l.slice(0,i).split(';')[0],val=l.slice(i+1);
+    if(cle==='DTSTART')cur.start=val;
+    else if(cle==='DTEND')cur.end=val;
+    else if(cle==='SUMMARY')cur.name=unesc(val);
+    else if(cle==='LOCATION')cur.place=unesc(val);
+    else if(cle==='DESCRIPTION')cur.desc=unesc(val);
+    else if(cle==='URL')cur.url=val;
+    else if(cle==='DTSTAMP')cur.stamp=val;
+  }
+  return events;
+}
+const dateDe=v=>v?.slice(0,8)||'';
+const heureDe=v=>v&&v.length>=13?v.slice(9,11)+':'+v.slice(11,13):'';
+
+function rendre(events){
+  const parJour={};
+  for(const e of events){(parJour[dateDe(e.start)]??=[]).push(e);}
+  jours=Object.keys(parJour).sort().map(d=>({d,events:parJour[d].sort((a,b)=>a.start.localeCompare(b.start))}));
+  if(!jours.length){$('timeline').innerHTML='<p class="empty">Calendrier vide — lance le workflow GitHub Actions une première fois.</p>';return;}
+  // onglet actif = aujourd'hui si présent
+  const auj=new Date(),ymd=auj.getFullYear()+String(auj.getMonth()+1).padStart(2,'0')+String(auj.getDate()).padStart(2,'0');
+  actif=Math.max(0,jours.findIndex(j=>j.d===ymd));
+  // dernière mise à jour = DTSTAMP
+  const st=events[0]?.stamp;
+  if(st)$('maj').textContent='Généré le '+st.slice(6,8)+'/'+st.slice(4,6)+'/'+st.slice(0,4)+' à '+st.slice(9,11)+':'+st.slice(11,13)+' UTC';
+  rendreTabs();rendreJour();
+}
+function rendreTabs(){
+  $('dayTabs').innerHTML=jours.map((j,i)=>{
+    const d=new Date(j.d.slice(0,4),j.d.slice(4,6)-1,j.d.slice(6,8));
+    return `<button class="day-tab ${i===actif?'active':''}" data-i="${i}"><span class="d">${d.getDate()} ${MOIS[d.getMonth()]}</span>${JOURS[d.getDay()]}</button>`;
+  }).join('');
+  $('dayTabs').querySelectorAll('.day-tab').forEach(b=>b.onclick=()=>{actif=+b.dataset.i;rendreTabs();rendreJour();});
+}
+function rendreJour(){
+  const j=jours[actif];
+  $('timeline').innerHTML=j.events.map(e=>{
+    const sc=(e.desc||'').match(/SCORE\s*:\s*(\d+)\/20/);
+    const verif=/À CONFIRMER/i.test(e.name||'');
+    const infos=(e.desc||'').split('\n').filter(l=>l&&!/^SCORE/.test(l)&&!/^https?:/.test(l)).join('\n');
+    return `<article class="card">
+      <span class="time">${heureDe(e.start)}${e.end?' – '+heureDe(e.end):''}</span>
+      <h3>${esc((e.name||'').replace(/\s*\(À CONFIRMER\)/i,''))}</h3>
+      <p class="place">${esc(e.place||'')}</p>
+      ${infos?`<p class="why">${esc(infos)}</p>`:''}
+      <div class="meta">
+        ${sc?`<span class="badge b-score">${sc[1]}/20</span>`:''}
+        ${verif?'<span class="badge b-verif">À VÉRIFIER</span>':''}
+        ${e.url?`<span class="badge b-lien"><a href="${esc(e.url)}" target="_blank" rel="noopener">source ↗</a></span>`:''}
+      </div></article>`;
+  }).join('')||'<p class="empty">Rien ce jour-là.</p>';
+}
+
+fetch('metz.ics',{cache:'no-store'})
+  .then(r=>{if(!r.ok)throw new Error(r.status);return r.text();})
+  .then(t=>rendre(parseICS(t)))
+  .catch(e=>$('timeline').innerHTML=`<p class="err">Impossible de lire metz.ics (${esc(e.message)}). Vérifie que le workflow a tourné et que Pages publie le dossier /docs.</p>`);
+</script>
+</body>
+</html>
