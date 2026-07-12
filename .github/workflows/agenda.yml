@@ -1,0 +1,33 @@
+name: Agenda Metz auto
+
+on:
+  schedule:
+    - cron: "0 4 * * *"        # chaque nuit à 4h UTC (6h heure de Metz)
+  workflow_dispatch:            # bouton "Run workflow" pour lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dépendances
+        run: pip install requests feedparser beautifulsoup4
+
+      - name: Générer le calendrier
+        run: python build_agenda.py
+
+      - name: Publier si changement
+        run: |
+          git config user.name "agenda-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/metz.ics
+          git diff --cached --quiet || git commit -m "Agenda mis à jour ($(date -u +%F))"
+          git push
