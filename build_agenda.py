@@ -184,28 +184,34 @@ def candidats_du_jour(jour: date, events_web, permanentes, deja_utilise) -> list
                     "score": s, "permanent": True})
     return sorted(out, key=lambda c: -c["score"])
 
-def planifier(events_web: list[dict]) -> dict[date, list[dict]]:
-    """4 activités max par soir, réparties en round-robin sur la semaine :
-    à chaque passe, chaque jour prend son meilleur candidat encore libre —
-    aucune activité ne sert deux fois dans la semaine (règle anti-répétition),
-    et un jour ne peut pas assécher les suivants."""
-    lundi = date.today() - timedelta(days=date.today().weekday())
-    jours = [lundi + timedelta(days=i) for i in range(7)]
-    permanentes = charger_permanentes()
-    planning = {j: [] for j in jours}
-    deja_utilise: set[str] = set()
+NB_SEMAINES = 2   # semaine en cours + semaine suivante
 
-    for _passe in range(4):                       # 4 créneaux par soir
-        for jour in jours:
-            if len(planning[jour]) >= 4:
-                continue
-            noms_du_jour = {e["name"] for e in planning[jour]}
-            for c in candidats_du_jour(jour, events_web, permanentes, deja_utilise):
-                if c["name"] in noms_du_jour:
+def planifier(events_web: list[dict]) -> dict[date, list[dict]]:
+    """4 activités max par soir, réparties en round-robin. La règle
+    anti-répétition (une activité ne sert qu'une fois) s'applique PAR SEMAINE :
+    elle se réinitialise chaque lundi, sinon les activités permanentes ne
+    pourraient pas couvrir plusieurs semaines."""
+    lundi = date.today() - timedelta(days=date.today().weekday())
+    permanentes = charger_permanentes()
+    planning: dict[date, list[dict]] = {}
+
+    for s in range(NB_SEMAINES):
+        jours = [lundi + timedelta(days=7 * s + i) for i in range(7)]
+        for j in jours:
+            planning[j] = []
+        deja_utilise: set[str] = set()          # remis à zéro chaque semaine
+
+        for _passe in range(4):                 # 4 créneaux par soir
+            for jour in jours:
+                if len(planning[jour]) >= 4:
                     continue
-                planning[jour].append(c)
-                deja_utilise.add(c["name"])       # règle : pas de répétition dans la semaine
-                break
+                noms_du_jour = {e["name"] for e in planning[jour]}
+                for c in candidats_du_jour(jour, events_web, permanentes, deja_utilise):
+                    if c["name"] in noms_du_jour:
+                        continue
+                    planning[jour].append(c)
+                    deja_utilise.add(c["name"])
+                    break
 
     return {j: sorted(evts, key=lambda c: c["start"]) for j, evts in planning.items()}
 
