@@ -23,195 +23,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:metz-ia-20260713-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260713T183000
-DTEND;TZID=Europe/Paris:20260713T203000
-SUMMARY:Apéro cocktails — Bottle Bar
-LOCATION:Bottle Bar\, 11 Rue du Faisan\, 57000 Metz
-DESCRIPTION:SCORE : 17/20\nBudget : ~10-20€\nBar à vins & cocktails réputé pour son ambiance conviviale (4\,8/5).\nhttps://www.google.com/maps/search/?api=1&query=Bottle+Bar+Metz
-URL:https://www.google.com/maps/search/?api=1&query=Bottle+Bar+Metz
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260713-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260713T183000
-DTEND;TZID=Europe/Paris:20260713T200000
-SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
-LOCATION:Fight Club Metz\, Gymnase Cosec\, 11 Rue du Dauphiné\, 57070 Metz-Borny (≈3\,5 km)
-DESCRIPTION:SCORE : 12/20\nBudget : Essai gratuit\nClub 5/5\, lun/mer soir. Appeler avant (horaires d'été) : 06 74 23 48 09.\nhttps://www.google.com/maps/search/?api=1&query=Fight+Club+Metz+Borny
-URL:https://www.google.com/maps/search/?api=1&query=Fight+Club+Metz+Borny
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260713-3@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260713T193000
-DTEND;TZID=Europe/Paris:20260713T213000
-SUMMARY:Dîner pan-asiatique — Kung Pao
-LOCATION:Kung Pao\, 43 Rue de la Tête d'Or\, 57000 Metz
-DESCRIPTION:SCORE : 12/20\nBudget : ~15-25€\n4\,8/5 (262 avis)\, donburi/poke/tempura\, ouvert le dimanche soir.\nhttps://www.google.com/maps/search/?api=1&query=Kung+Pao+Metz
-URL:https://www.google.com/maps/search/?api=1&query=Kung+Pao+Metz
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260714-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260714T173000
-DTEND;TZID=Europe/Paris:20260714T193000
-SUMMARY:Apéro jeux & arcade — Le Bonfire
-LOCATION:Le Bonfire\, 7 bis Rue Sainte-Marie\, 57000 Metz
-DESCRIPTION:SCORE : 17/20\nBudget : ~10-15€\nBar-arcade en centre-ville\, bornes et jeux : brise-glace naturel.\nhttps://www.google.com/maps/search/?api=1&query=Le+Bonfire+Metz
-URL:https://www.google.com/maps/search/?api=1&query=Le+Bonfire+Metz
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260714-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260714T190000
-DTEND;TZID=Europe/Paris:20260714T210000
-SUMMARY:Ramen japonais — Kyôdaï Ramen
-LOCATION:Kyôdaï Ramen\, 9 Rue Sainte-Marie\, 57000 Metz
-DESCRIPTION:SCORE : 12/20\nBudget : ~15-20€\nMeilleur ramen de Metz (4\,7/5\, 812 avis)\, nouilles maison. Réserver : 03 87 76 21 98.\nhttps://www.google.com/maps/search/?api=1&query=Ky%C3%B4da%C3%AF+Ramen+Metz
-URL:https://www.google.com/maps/search/?api=1&query=Ky%C3%B4da%C3%AF+Ramen+Metz
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260714-3@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260714T204500
-DTEND;TZID=Europe/Paris:20260714T220000
-SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
-LOCATION:Moyen Pont / Temple Neuf\, Île du Petit-Saulcy\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : GRATUIT\nLe spot photo le plus iconique de Metz au coucher du soleil.\nhttps://www.tourisme-metz.com/fr
-URL:https://www.tourisme-metz.com/fr
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260715-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260715T173000
-DTEND;TZID=Europe/Paris:20260715T220000
-SUMMARY:Guinguette Les Frigos — food court & concerts
-LOCATION:Les Frigos\, 1 Rue du Général Ferrié\, 57000 Metz
-DESCRIPTION:SCORE : 17/20\nBudget : Entrée libre\nLe biergarten urbain de Metz : food court local\, concerts\, fête ven/sam\, marché le dimanche (11h-22h).\nhttps://metz.fr/lieux/lieu-4191.php
-URL:https://metz.fr/lieux/lieu-4191.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260715-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260715T180000
-DTEND;TZID=Europe/Paris:20260715T194500
-SUMMARY:Dîner cambodgien — Angkor Wat
-LOCATION:Angkor Wat Bubble Tea\, 12 Rue Goussaud\, 57000 Metz
-DESCRIPTION:SCORE : 12/20\nBudget : ~15-20€\nFamilial\, 4\,9/5 (279 avis) — attention ferme à 20h.\nhttps://www.google.com/maps/search/?api=1&query=Angkor+Wat+Bubble+Tea+Metz
-URL:https://www.google.com/maps/search/?api=1&query=Angkor+Wat+Bubble+Tea+Metz
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260716-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260716T190000
-DTEND;TZID=Europe/Paris:20260716T230000
-SUMMARY:La TAKE OFF by BASSMAXX — DJ & planches (À CONFIRMER)
-LOCATION:L'Aérogare station Lothaire\, 69 Rue Lothaire\, 57000 Metz
-DESCRIPTION:SCORE : 17/20\nBudget : Entrée libre\, conso ~15-25€\nDJ\, cadre chic\, planches apéritives — horaires à confirmer au 03 74 47 26 56.\nhttps://www.tourisme-metz.com/fr/details/838166409-l-aerogare-station-lothaire
-URL:https://www.tourisme-metz.com/fr/details/838166409-l-aerogare-station-lothaire
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260716-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260716T220000
-DTEND;TZID=Europe/Paris:20260716T220000
-SUMMARY:Constellations — Pierres Numériques + mapping cathédrale
-LOCATION:Cathédrale Saint-Étienne\, Place d'Armes\, 57000 Metz
-DESCRIPTION:SCORE : 14/20\nBudget : GRATUIT\nParcours nocturne d'art numérique\, 6 mappings sur la cathédrale (22h30).\nhttps://www.constellations-metz.fr/
-URL:https://www.constellations-metz.fr/
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260717-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260717T203000
-DTEND;TZID=Europe/Paris:20260717T220000
-SUMMARY:Karaoké BOX privatif — soirée à la japonaise
-LOCATION:Karaoké BOX Privatif\, 12 Rue Gambetta\, 57000 Metz
-DESCRIPTION:SCORE : 20/20\nBudget : ~10-15€/pers/h\nBox privatif façon Japon (4\,9/5). Réserver : 03 56 67 82 30.\nhttps://www.google.com/maps/search/?api=1&query=Karaok%C3%A9+BOX+Privatif+Metz
-URL:https://www.google.com/maps/search/?api=1&query=Karaok%C3%A9+BOX+Privatif+Metz
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260717-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260717T223000
-DTEND;TZID=Europe/Paris:20260717T233000
-SUMMARY:Fontaines Dansantes — Lac aux Cygnes
-LOCATION:Lac aux Cygnes\, Plan d'eau\, Boulevard Poincaré\, 57000 Metz
-DESCRIPTION:SCORE : 10/20\nBudget : GRATUIT\nSon & lumière « La Magie s'invite à Metz »\, séances 22h30 et 23h (22h dès le 30/07).\nhttps://metz.fr/agenda/fiche-40750.php
-URL:https://metz.fr/agenda/fiche-40750.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260718-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260718T200000
-DTEND;TZID=Europe/Paris:20260718T220000
-SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
-LOCATION:Bar lounge du centre (communiqué aux inscrits)\, 57000 Metz
-DESCRIPTION:SCORE : 20/20\nBudget : ~20-30€\nSoirées régulières par tranches d'âge — consulter l'agenda du site et s'inscrire.\nhttps://www.lespeeddating.com/77-rencontres-metz-celibataires-57-moselle-speeddating-57000
-URL:https://www.lespeeddating.com/77-rencontres-metz-celibataires-57-moselle-speeddating-57000
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260718-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260718T200000
-DTEND;TZID=Europe/Paris:20260718T221500
-SUMMARY:Ciné du soir au KLUB (VO)
-LOCATION:Cinéma KLUB\, 5 Rue Fabert\, 57000 Metz
-DESCRIPTION:SCORE : 9/20\nBudget : ~8-10€\nCinéma de centre-ville\, VO/VOST — vérifier la séance du jour.\nhttps://www.google.com/maps/search/?api=1&query=Cin%C3%A9ma+Klub+Metz
-URL:https://www.google.com/maps/search/?api=1&query=Cin%C3%A9ma+Klub+Metz
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260719-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260719T110000
-DTEND;TZID=Europe/Paris:20260719T190000
-SUMMARY:Metz Plage — sport & détente au plan d'eau
-LOCATION:Plan d'eau\, Quai des Régates\, 57000 Metz
-DESCRIPTION:SCORE : 14/20\nBudget : GRATUIT\nSable\, transats\, initiations sportives gratuites\, baignade.\nhttps://metz.fr/agenda/
-URL:https://metz.fr/agenda/
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260719-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260719T200000
-DTEND;TZID=Europe/Paris:20260719T220000
-SUMMARY:Le Metz Veggie Festival bientôt de retour aux Frigos pour une 2ème édition (À CONFIRMER)
-LOCATION:Metz\, 57000 Metz
-DESCRIPTION:SCORE : 9/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/metz-veggie-festival-bientot-retour-frigos-845268
-URL:https://tout-metz.com/metz-veggie-festival-bientot-retour-frigos-845268
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260719-3@gengiscard.github.io
-DTSTAMP:20260719T063528Z
-DTSTART;TZID=Europe/Paris:20260719T200000
-DTEND;TZID=Europe/Paris:20260719T220000
-SUMMARY:Exposition-vente solidaire d'artisanat himalayen Cloître des Récollets Du 17 au  (À CONFIRMER)
-LOCATION:Metz (voir fiche)\, 57000 Metz
-DESCRIPTION:SCORE : 7/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41308.php
-URL:https://metz.fr/agenda/fiche-41308.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
 UID:metz-ia-20260720-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260720T183000
 DTEND;TZID=Europe/Paris:20260720T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -222,7 +35,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260720-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260720T183000
 DTEND;TZID=Europe/Paris:20260720T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -233,7 +46,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260720-3@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260720T193000
 DTEND;TZID=Europe/Paris:20260720T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -244,7 +57,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260721-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260721T173000
 DTEND;TZID=Europe/Paris:20260721T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -255,7 +68,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260721-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260721T190000
 DTEND;TZID=Europe/Paris:20260721T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -266,7 +79,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260721-3@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260721T204500
 DTEND;TZID=Europe/Paris:20260721T220000
 SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
@@ -277,7 +90,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260722-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260722T173000
 DTEND;TZID=Europe/Paris:20260722T220000
 SUMMARY:Guinguette Les Frigos — food court & concerts
@@ -288,7 +101,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260722-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260722T180000
 DTEND;TZID=Europe/Paris:20260722T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -298,8 +111,30 @@ URL:https://www.google.com/maps/search/?api=1&query=Angkor+Wat+Bubble+Tea+Metz
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
+UID:metz-ia-20260722-3@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260722T200000
+DTEND;TZID=Europe/Paris:20260722T220000
+SUMMARY:Le Procès du chien - Cinéma en plein air Square Théophile Dedun Mercredi 22 juil (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 7/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41171.php
+URL:https://metz.fr/agenda/fiche-41171.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260722-4@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260722T200000
+DTEND;TZID=Europe/Paris:20260722T220000
+SUMMARY:Visite familles Tulipes\, stipes et cyanotypes Musée de La Cour d'Or Mercredi 22  (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41155.php
+URL:https://metz.fr/agenda/fiche-41155.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
 UID:metz-ia-20260723-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260723T190000
 DTEND;TZID=Europe/Paris:20260723T230000
 SUMMARY:La TAKE OFF by BASSMAXX — DJ & planches (À CONFIRMER)
@@ -310,7 +145,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260723-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260723T200000
 DTEND;TZID=Europe/Paris:20260723T220000
 SUMMARY:Le Classic Metz’ival revient pour sa 10ème édition du 17 au 23 juillet 2026 (À CONFIRMER)
@@ -321,7 +156,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260723-3@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260723T220000
 DTEND;TZID=Europe/Paris:20260723T220000
 SUMMARY:Constellations — Pierres Numériques + mapping cathédrale
@@ -332,7 +167,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260724-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260724T203000
 DTEND;TZID=Europe/Paris:20260724T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -343,7 +178,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260724-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260724T223000
 DTEND;TZID=Europe/Paris:20260724T233000
 SUMMARY:Fontaines Dansantes — Lac aux Cygnes
@@ -354,7 +189,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260725-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260725T200000
 DTEND;TZID=Europe/Paris:20260725T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -365,7 +200,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260725-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260725T200000
 DTEND;TZID=Europe/Paris:20260725T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -376,7 +211,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260726-1@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260726T110000
 DTEND;TZID=Europe/Paris:20260726T190000
 SUMMARY:Metz Plage — sport & détente au plan d'eau
@@ -387,13 +222,178 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260726-2@gengiscard.github.io
-DTSTAMP:20260719T063528Z
+DTSTAMP:20260720T065306Z
 DTSTART;TZID=Europe/Paris:20260726T200000
 DTEND;TZID=Europe/Paris:20260726T220000
 SUMMARY:Montigny-lès-Metz : le commissariat de police ferme pour travaux (À CONFIRMER)
 LOCATION:Metz\, 57000 Metz
 DESCRIPTION:SCORE : 6/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/montigny-les-metz-commissariat-police-ferme-travaux-845259
 URL:https://tout-metz.com/montigny-les-metz-commissariat-police-ferme-travaux-845259
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260727-1@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260727T183000
+DTEND;TZID=Europe/Paris:20260727T203000
+SUMMARY:Apéro cocktails — Bottle Bar
+LOCATION:Bottle Bar\, 11 Rue du Faisan\, 57000 Metz
+DESCRIPTION:SCORE : 17/20\nBudget : ~10-20€\nBar à vins & cocktails réputé pour son ambiance conviviale (4\,8/5).\nhttps://www.google.com/maps/search/?api=1&query=Bottle+Bar+Metz
+URL:https://www.google.com/maps/search/?api=1&query=Bottle+Bar+Metz
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260727-2@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260727T183000
+DTEND;TZID=Europe/Paris:20260727T200000
+SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
+LOCATION:Fight Club Metz\, Gymnase Cosec\, 11 Rue du Dauphiné\, 57070 Metz-Borny (≈3\,5 km)
+DESCRIPTION:SCORE : 12/20\nBudget : Essai gratuit\nClub 5/5\, lun/mer soir. Appeler avant (horaires d'été) : 06 74 23 48 09.\nhttps://www.google.com/maps/search/?api=1&query=Fight+Club+Metz+Borny
+URL:https://www.google.com/maps/search/?api=1&query=Fight+Club+Metz+Borny
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260727-3@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260727T193000
+DTEND;TZID=Europe/Paris:20260727T213000
+SUMMARY:Dîner pan-asiatique — Kung Pao
+LOCATION:Kung Pao\, 43 Rue de la Tête d'Or\, 57000 Metz
+DESCRIPTION:SCORE : 12/20\nBudget : ~15-25€\n4\,8/5 (262 avis)\, donburi/poke/tempura\, ouvert le dimanche soir.\nhttps://www.google.com/maps/search/?api=1&query=Kung+Pao+Metz
+URL:https://www.google.com/maps/search/?api=1&query=Kung+Pao+Metz
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260728-1@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260728T173000
+DTEND;TZID=Europe/Paris:20260728T193000
+SUMMARY:Apéro jeux & arcade — Le Bonfire
+LOCATION:Le Bonfire\, 7 bis Rue Sainte-Marie\, 57000 Metz
+DESCRIPTION:SCORE : 17/20\nBudget : ~10-15€\nBar-arcade en centre-ville\, bornes et jeux : brise-glace naturel.\nhttps://www.google.com/maps/search/?api=1&query=Le+Bonfire+Metz
+URL:https://www.google.com/maps/search/?api=1&query=Le+Bonfire+Metz
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260728-2@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260728T190000
+DTEND;TZID=Europe/Paris:20260728T210000
+SUMMARY:Ramen japonais — Kyôdaï Ramen
+LOCATION:Kyôdaï Ramen\, 9 Rue Sainte-Marie\, 57000 Metz
+DESCRIPTION:SCORE : 12/20\nBudget : ~15-20€\nMeilleur ramen de Metz (4\,7/5\, 812 avis)\, nouilles maison. Réserver : 03 87 76 21 98.\nhttps://www.google.com/maps/search/?api=1&query=Ky%C3%B4da%C3%AF+Ramen+Metz
+URL:https://www.google.com/maps/search/?api=1&query=Ky%C3%B4da%C3%AF+Ramen+Metz
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260729-1@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260729T173000
+DTEND;TZID=Europe/Paris:20260729T220000
+SUMMARY:Guinguette Les Frigos — food court & concerts
+LOCATION:Les Frigos\, 1 Rue du Général Ferrié\, 57000 Metz
+DESCRIPTION:SCORE : 17/20\nBudget : Entrée libre\nLe biergarten urbain de Metz : food court local\, concerts\, fête ven/sam\, marché le dimanche (11h-22h).\nhttps://metz.fr/lieux/lieu-4191.php
+URL:https://metz.fr/lieux/lieu-4191.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260729-2@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260729T180000
+DTEND;TZID=Europe/Paris:20260729T194500
+SUMMARY:Dîner cambodgien — Angkor Wat
+LOCATION:Angkor Wat Bubble Tea\, 12 Rue Goussaud\, 57000 Metz
+DESCRIPTION:SCORE : 12/20\nBudget : ~15-20€\nFamilial\, 4\,9/5 (279 avis) — attention ferme à 20h.\nhttps://www.google.com/maps/search/?api=1&query=Angkor+Wat+Bubble+Tea+Metz
+URL:https://www.google.com/maps/search/?api=1&query=Angkor+Wat+Bubble+Tea+Metz
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260730-1@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260730T190000
+DTEND;TZID=Europe/Paris:20260730T230000
+SUMMARY:La TAKE OFF by BASSMAXX — DJ & planches (À CONFIRMER)
+LOCATION:L'Aérogare station Lothaire\, 69 Rue Lothaire\, 57000 Metz
+DESCRIPTION:SCORE : 17/20\nBudget : Entrée libre\, conso ~15-25€\nDJ\, cadre chic\, planches apéritives — horaires à confirmer au 03 74 47 26 56.\nhttps://www.tourisme-metz.com/fr/details/838166409-l-aerogare-station-lothaire
+URL:https://www.tourisme-metz.com/fr/details/838166409-l-aerogare-station-lothaire
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260730-2@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260730T220000
+DTEND;TZID=Europe/Paris:20260730T220000
+SUMMARY:Constellations — Pierres Numériques + mapping cathédrale
+LOCATION:Cathédrale Saint-Étienne\, Place d'Armes\, 57000 Metz
+DESCRIPTION:SCORE : 14/20\nBudget : GRATUIT\nParcours nocturne d'art numérique\, 6 mappings sur la cathédrale (22h30).\nhttps://www.constellations-metz.fr/
+URL:https://www.constellations-metz.fr/
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260731-1@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260731T203000
+DTEND;TZID=Europe/Paris:20260731T220000
+SUMMARY:Karaoké BOX privatif — soirée à la japonaise
+LOCATION:Karaoké BOX Privatif\, 12 Rue Gambetta\, 57000 Metz
+DESCRIPTION:SCORE : 20/20\nBudget : ~10-15€/pers/h\nBox privatif façon Japon (4\,9/5). Réserver : 03 56 67 82 30.\nhttps://www.google.com/maps/search/?api=1&query=Karaok%C3%A9+BOX+Privatif+Metz
+URL:https://www.google.com/maps/search/?api=1&query=Karaok%C3%A9+BOX+Privatif+Metz
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260731-2@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260731T223000
+DTEND;TZID=Europe/Paris:20260731T233000
+SUMMARY:Fontaines Dansantes — Lac aux Cygnes
+LOCATION:Lac aux Cygnes\, Plan d'eau\, Boulevard Poincaré\, 57000 Metz
+DESCRIPTION:SCORE : 10/20\nBudget : GRATUIT\nSon & lumière « La Magie s'invite à Metz »\, séances 22h30 et 23h (22h dès le 30/07).\nhttps://metz.fr/agenda/fiche-40750.php
+URL:https://metz.fr/agenda/fiche-40750.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260801-1@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260801T200000
+DTEND;TZID=Europe/Paris:20260801T220000
+SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
+LOCATION:Bar lounge du centre (communiqué aux inscrits)\, 57000 Metz
+DESCRIPTION:SCORE : 20/20\nBudget : ~20-30€\nSoirées régulières par tranches d'âge — consulter l'agenda du site et s'inscrire.\nhttps://www.lespeeddating.com/77-rencontres-metz-celibataires-57-moselle-speeddating-57000
+URL:https://www.lespeeddating.com/77-rencontres-metz-celibataires-57-moselle-speeddating-57000
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260801-2@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260801T200000
+DTEND;TZID=Europe/Paris:20260801T221500
+SUMMARY:Ciné du soir au KLUB (VO)
+LOCATION:Cinéma KLUB\, 5 Rue Fabert\, 57000 Metz
+DESCRIPTION:SCORE : 9/20\nBudget : ~8-10€\nCinéma de centre-ville\, VO/VOST — vérifier la séance du jour.\nhttps://www.google.com/maps/search/?api=1&query=Cin%C3%A9ma+Klub+Metz
+URL:https://www.google.com/maps/search/?api=1&query=Cin%C3%A9ma+Klub+Metz
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260802-1@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260802T110000
+DTEND;TZID=Europe/Paris:20260802T190000
+SUMMARY:Metz Plage — sport & détente au plan d'eau
+LOCATION:Plan d'eau\, Quai des Régates\, 57000 Metz
+DESCRIPTION:SCORE : 14/20\nBudget : GRATUIT\nSable\, transats\, initiations sportives gratuites\, baignade.\nhttps://metz.fr/agenda/
+URL:https://metz.fr/agenda/
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260802-2@gengiscard.github.io
+DTSTAMP:20260720T065306Z
+DTSTART;TZID=Europe/Paris:20260802T204500
+DTEND;TZID=Europe/Paris:20260802T220000
+SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
+LOCATION:Moyen Pont / Temple Neuf\, Île du Petit-Saulcy\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : GRATUIT\nLe spot photo le plus iconique de Metz au coucher du soleil.\nhttps://www.tourisme-metz.com/fr
+URL:https://www.tourisme-metz.com/fr
 CATEGORIES:IA
 END:VEVENT
 END:VCALENDAR
