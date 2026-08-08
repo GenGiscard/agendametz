@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:metz-ia-20260803-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260803T183000
 DTEND;TZID=Europe/Paris:20260803T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -35,7 +35,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260803-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260803T183000
 DTEND;TZID=Europe/Paris:20260803T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -46,7 +46,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260803-3@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260803T193000
 DTEND;TZID=Europe/Paris:20260803T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -57,7 +57,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260804-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260804T173000
 DTEND;TZID=Europe/Paris:20260804T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -68,7 +68,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260804-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260804T190000
 DTEND;TZID=Europe/Paris:20260804T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -79,7 +79,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260804-3@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260804T204500
 DTEND;TZID=Europe/Paris:20260804T220000
 SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
@@ -90,7 +90,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260805-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260805T173000
 DTEND;TZID=Europe/Paris:20260805T220000
 SUMMARY:Guinguette Les Frigos — food court & concerts
@@ -101,7 +101,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260805-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260805T180000
 DTEND;TZID=Europe/Paris:20260805T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -112,7 +112,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260806-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260806T190000
 DTEND;TZID=Europe/Paris:20260806T230000
 SUMMARY:La TAKE OFF by BASSMAXX — DJ & planches (À CONFIRMER)
@@ -123,7 +123,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260806-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260806T220000
 DTEND;TZID=Europe/Paris:20260806T220000
 SUMMARY:Constellations — Pierres Numériques + mapping cathédrale
@@ -134,29 +134,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260807-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
-DTSTART;TZID=Europe/Paris:20260807T200000
-DTEND;TZID=Europe/Paris:20260807T220000
-SUMMARY:Une heure une salle : la salle Renaissance Musée de La Cour d'Or Vendredi 7 août (À CONFIRMER)
-LOCATION:Metz (voir fiche)\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41392.php
-URL:https://metz.fr/agenda/fiche-41392.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260807-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
-DTSTART;TZID=Europe/Paris:20260807T200000
-DTEND;TZID=Europe/Paris:20260807T220000
-SUMMARY:Qu'est-ce que c'est que ce truc (version sensorielle) Musée de La Cour d'Or Vend (À CONFIRMER)
-LOCATION:Metz (voir fiche)\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41514.php
-URL:https://metz.fr/agenda/fiche-41514.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260807-3@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260807T203000
 DTEND;TZID=Europe/Paris:20260807T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -166,8 +144,8 @@ URL:https://www.google.com/maps/search/?api=1&query=Karaok%C3%A9+BOX+Privatif+Me
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
-UID:metz-ia-20260807-4@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+UID:metz-ia-20260807-2@gengiscard.github.io
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260807T223000
 DTEND;TZID=Europe/Paris:20260807T233000
 SUMMARY:Fontaines Dansantes — Lac aux Cygnes
@@ -178,7 +156,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260808-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260808T200000
 DTEND;TZID=Europe/Paris:20260808T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -189,7 +167,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260808-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260808T200000
 DTEND;TZID=Europe/Paris:20260808T220000
 SUMMARY:Un festival de musique celte organisé au parc archéologique de Bliesbruck les 7  (À CONFIRMER)
@@ -199,8 +177,30 @@ URL:https://tout-metz.com/celtika-festival-musique-celte-parc-archeologique-blie
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
+UID:metz-ia-20260808-3@gengiscard.github.io
+DTSTAMP:20260808T050312Z
+DTSTART;TZID=Europe/Paris:20260808T200000
+DTEND;TZID=Europe/Paris:20260808T220000
+SUMMARY:Karibu Afrika Festival Place de la République Samedi 8 août de 10h à 23h30 et di (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 7/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41475.php
+URL:https://metz.fr/agenda/fiche-41475.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260808-4@gengiscard.github.io
+DTSTAMP:20260808T050312Z
+DTSTART;TZID=Europe/Paris:20260808T200000
+DTEND;TZID=Europe/Paris:20260808T220000
+SUMMARY:FC Metz - EA Guingamp Stade Saint-Symphorien Samedi 8 août à 20h45 (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41566.php
+URL:https://metz.fr/agenda/fiche-41566.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
 UID:metz-ia-20260809-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260809T110000
 DTEND;TZID=Europe/Paris:20260809T190000
 SUMMARY:Metz Plage — sport & détente au plan d'eau
@@ -211,7 +211,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260809-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260809T200000
 DTEND;TZID=Europe/Paris:20260809T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -221,8 +221,30 @@ URL:https://www.google.com/maps/search/?api=1&query=Cin%C3%A9ma+Klub+Metz
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
+UID:metz-ia-20260809-3@gengiscard.github.io
+DTSTAMP:20260808T050312Z
+DTSTART;TZID=Europe/Paris:20260809T200000
+DTEND;TZID=Europe/Paris:20260809T220000
+SUMMARY:Visite flash Pavillon de la Biodiversité Musée de La Cour d'Or Dimanche 9 août à (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41393.php
+URL:https://metz.fr/agenda/fiche-41393.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260809-4@gengiscard.github.io
+DTSTAMP:20260808T050312Z
+DTSTART;TZID=Europe/Paris:20260809T200000
+DTEND;TZID=Europe/Paris:20260809T220000
+SUMMARY:Visite flash grenier de Chèvremont Musée de La Cour d'Or Dimanche 9 août à 11h30 (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41395.php
+URL:https://metz.fr/agenda/fiche-41395.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
 UID:metz-ia-20260810-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260810T183000
 DTEND;TZID=Europe/Paris:20260810T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -233,7 +255,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260810-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260810T183000
 DTEND;TZID=Europe/Paris:20260810T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -244,7 +266,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260810-3@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260810T193000
 DTEND;TZID=Europe/Paris:20260810T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -255,7 +277,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260811-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260811T173000
 DTEND;TZID=Europe/Paris:20260811T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -266,7 +288,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260811-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260811T190000
 DTEND;TZID=Europe/Paris:20260811T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -277,7 +299,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260812-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260812T173000
 DTEND;TZID=Europe/Paris:20260812T220000
 SUMMARY:Guinguette Les Frigos — food court & concerts
@@ -288,7 +310,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260812-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260812T180000
 DTEND;TZID=Europe/Paris:20260812T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -299,7 +321,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260813-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260813T220000
 DTEND;TZID=Europe/Paris:20260813T220000
 SUMMARY:Constellations — Pierres Numériques + mapping cathédrale
@@ -310,7 +332,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260813-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260813T223000
 DTEND;TZID=Europe/Paris:20260813T233000
 SUMMARY:Fontaines Dansantes — Lac aux Cygnes
@@ -321,7 +343,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260814-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260814T200000
 DTEND;TZID=Europe/Paris:20260814T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -332,7 +354,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260814-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260814T203000
 DTEND;TZID=Europe/Paris:20260814T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -343,7 +365,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260815-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260815T200000
 DTEND;TZID=Europe/Paris:20260815T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -354,7 +376,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260815-2@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260815T204500
 DTEND;TZID=Europe/Paris:20260815T220000
 SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
@@ -365,13 +387,35 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260816-1@gengiscard.github.io
-DTSTAMP:20260807T054423Z
+DTSTAMP:20260808T050312Z
 DTSTART;TZID=Europe/Paris:20260816T110000
 DTEND;TZID=Europe/Paris:20260816T190000
 SUMMARY:Metz Plage — sport & détente au plan d'eau
 LOCATION:Plan d'eau\, Quai des Régates\, 57000 Metz
 DESCRIPTION:SCORE : 14/20\nBudget : GRATUIT\nSable\, transats\, initiations sportives gratuites\, baignade.\nhttps://metz.fr/agenda/
 URL:https://metz.fr/agenda/
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260816-2@gengiscard.github.io
+DTSTAMP:20260808T050312Z
+DTSTART;TZID=Europe/Paris:20260816T200000
+DTEND;TZID=Europe/Paris:20260816T220000
+SUMMARY:Reconstitution\, spectacles et cinéma pour l’édition 2026 de « Ça tombe comme à G (À CONFIRMER)
+LOCATION:Metz\, 57000 Metz
+DESCRIPTION:SCORE : 7/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/reconstitution-spectacles-cinema-edition-2026-ca-tombe-comme-gravelotte-845294
+URL:https://tout-metz.com/reconstitution-spectacles-cinema-edition-2026-ca-tombe-comme-gravelotte-845294
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20260816-3@gengiscard.github.io
+DTSTAMP:20260808T050312Z
+DTSTART;TZID=Europe/Paris:20260816T200000
+DTEND;TZID=Europe/Paris:20260816T220000
+SUMMARY:Visites au FRAC FRAC Lorraine Tous les dimanches jusqu'au 16 août à 17h (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41333.php
+URL:https://metz.fr/agenda/fiche-41333.php
 CATEGORIES:IA
 END:VEVENT
 END:VCALENDAR
