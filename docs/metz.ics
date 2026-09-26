@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:metz-ia-20260921-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260921T180000
 DTEND;TZID=Europe/Paris:20260921T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -35,7 +35,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260921-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260921T183000
 DTEND;TZID=Europe/Paris:20260921T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -45,19 +45,8 @@ URL:https://www.google.com/maps/search/?api=1&query=Bottle+Bar+Metz
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
-UID:metz-ia-20260921-3@gengiscard.github.io
-DTSTAMP:20260925T093044Z
-DTSTART;TZID=Europe/Paris:20260921T204500
-DTEND;TZID=Europe/Paris:20260921T220000
-SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
-LOCATION:Moyen Pont / Temple Neuf\, Île du Petit-Saulcy\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : GRATUIT\nLe spot photo le plus iconique de Metz au coucher du soleil.\nhttps://www.tourisme-metz.com/fr
-URL:https://www.tourisme-metz.com/fr
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
 UID:metz-ia-20260922-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260922T173000
 DTEND;TZID=Europe/Paris:20260922T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -68,7 +57,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260922-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260922T200000
 DTEND;TZID=Europe/Paris:20260922T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -79,7 +68,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260923-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260923T183000
 DTEND;TZID=Europe/Paris:20260923T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -90,7 +79,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260923-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260923T190000
 DTEND;TZID=Europe/Paris:20260923T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -101,7 +90,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260924-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260924T193000
 DTEND;TZID=Europe/Paris:20260924T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -112,7 +101,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260924-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260924T223000
 DTEND;TZID=Europe/Paris:20260924T233000
 SUMMARY:Fontaines Dansantes — Lac aux Cygnes
@@ -123,40 +112,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260925-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
-DTSTART;TZID=Europe/Paris:20260925T200000
-DTEND;TZID=Europe/Paris:20260925T220000
-SUMMARY:FIM\, expositions\, portes ouvertes : 7 actus de la semaine à Metz (25 septembre 2 (À CONFIRMER)
-LOCATION:Metz\, 57000 Metz
-DESCRIPTION:SCORE : 7/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/fim-expositions-portes-ouvertes-7-actus-semaine-metz-25-septembre-2026-846237
-URL:https://tout-metz.com/fim-expositions-portes-ouvertes-7-actus-semaine-metz-25-septembre-2026-846237
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260925-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
-DTSTART;TZID=Europe/Paris:20260925T200000
-DTEND;TZID=Europe/Paris:20260925T220000
-SUMMARY:Événement Foire Animation Foire Internationale de Metz Parc des Expositions Du v (À CONFIRMER)
-LOCATION:Metz (voir fiche)\, 57000 Metz
-DESCRIPTION:SCORE : 7/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-39768.php
-URL:https://metz.fr/agenda/fiche-39768.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260925-3@gengiscard.github.io
-DTSTAMP:20260925T093044Z
-DTSTART;TZID=Europe/Paris:20260925T200000
-DTEND;TZID=Europe/Paris:20260925T220000
-SUMMARY:Alex Monteiro – Moi je… Caméo Comédie Club Vendredi 25 septembre à 21h30 (À CONFIRMER)
-LOCATION:Metz (voir fiche)\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41605.php
-URL:https://metz.fr/agenda/fiche-41605.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20260925-4@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260925T203000
 DTEND;TZID=Europe/Paris:20260925T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -166,8 +122,19 @@ URL:https://www.google.com/maps/search/?api=1&query=Karaok%C3%A9+BOX+Privatif+Me
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
+UID:metz-ia-20260925-2@gengiscard.github.io
+DTSTAMP:20260926T091514Z
+DTSTART;TZID=Europe/Paris:20260925T204500
+DTEND;TZID=Europe/Paris:20260925T220000
+SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
+LOCATION:Moyen Pont / Temple Neuf\, Île du Petit-Saulcy\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : GRATUIT\nLe spot photo le plus iconique de Metz au coucher du soleil.\nhttps://www.tourisme-metz.com/fr
+URL:https://www.tourisme-metz.com/fr
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
 UID:metz-ia-20260926-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260926T100000
 DTEND;TZID=Europe/Paris:20260926T220000
 SUMMARY:Avec « Plumes de Soignants »\, un nouveau salon littéraire s’installe à Metz
@@ -178,7 +145,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260926-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260926T200000
 DTEND;TZID=Europe/Paris:20260926T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -189,7 +156,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260926-3@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260926T200000
 DTEND;TZID=Europe/Paris:20260926T220000
 SUMMARY:Les Messins invités à rencontrer la presse ce 26 septembre 2026 avec « Aux kiosq (À CONFIRMER)
@@ -200,7 +167,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260926-4@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260926T200000
 DTEND;TZID=Europe/Paris:20260926T220000
 SUMMARY:Un océan d’amour - Cie La Salamandre L'Agora - médiathèque-centre social Samedi  (À CONFIRMER)
@@ -211,7 +178,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260927-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260927T110000
 DTEND;TZID=Europe/Paris:20260927T220000
 SUMMARY:Combats\, concerts et marché artisanal à Wergney en Feste\, la fête médiévale de V
@@ -222,7 +189,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260927-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260927T200000
 DTEND;TZID=Europe/Paris:20260927T220000
 SUMMARY:Rayo diva École Supérieure d'Art de Lorraine Du samedi 26 au dimanche 27 septemb (À CONFIRMER)
@@ -232,8 +199,19 @@ URL:https://metz.fr/agenda/fiche-41927.php
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
+UID:metz-ia-20260927-3@gengiscard.github.io
+DTSTAMP:20260926T091514Z
+DTSTART;TZID=Europe/Paris:20260927T200000
+DTEND;TZID=Europe/Paris:20260927T220000
+SUMMARY:48ème salon Cartes postales\, Monnaies et vieux papiers Centre d'Activités et de  (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41583.php
+URL:https://metz.fr/agenda/fiche-41583.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
 UID:metz-ia-20260928-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260928T180000
 DTEND;TZID=Europe/Paris:20260928T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -244,7 +222,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260928-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260928T183000
 DTEND;TZID=Europe/Paris:20260928T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -255,7 +233,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260928-3@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260928T200000
 DTEND;TZID=Europe/Paris:20260928T220000
 SUMMARY:Visite du pape Léon XIV à Metz : où se placer pour apercevoir la papamobile ce l (À CONFIRMER)
@@ -266,7 +244,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260928-4@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260928T200000
 DTEND;TZID=Europe/Paris:20260928T220000
 SUMMARY:Moselle : la RN4 en travaux du 28 septembre au 16 octobre 2026 (À CONFIRMER)
@@ -277,7 +255,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260929-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260929T173000
 DTEND;TZID=Europe/Paris:20260929T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -288,7 +266,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260929-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260929T200000
 DTEND;TZID=Europe/Paris:20260929T220000
 SUMMARY:Metz : trois jours pour prendre soin de son cœur à la clinique Claude Bernard (À CONFIRMER)
@@ -299,7 +277,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260929-3@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260929T200000
 DTEND;TZID=Europe/Paris:20260929T220000
 SUMMARY:Visite du pape à Metz : les points de collecte des déchets chamboulés du 23 au 2 (À CONFIRMER)
@@ -310,7 +288,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260930-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260930T183000
 DTEND;TZID=Europe/Paris:20260930T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -321,7 +299,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20260930-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20260930T190000
 DTEND;TZID=Europe/Paris:20260930T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -332,7 +310,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261001-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20261001T193000
 DTEND;TZID=Europe/Paris:20261001T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -343,7 +321,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261001-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20261001T204500
 DTEND;TZID=Europe/Paris:20261001T220000
 SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
@@ -354,7 +332,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261002-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20261002T203000
 DTEND;TZID=Europe/Paris:20261002T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -365,7 +343,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261003-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20261003T200000
 DTEND;TZID=Europe/Paris:20261003T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -376,7 +354,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261004-1@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20261004T200000
 DTEND;TZID=Europe/Paris:20261004T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -387,7 +365,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261004-2@gengiscard.github.io
-DTSTAMP:20260925T093044Z
+DTSTAMP:20260926T091514Z
 DTSTART;TZID=Europe/Paris:20261004T200000
 DTEND;TZID=Europe/Paris:20261004T220000
 SUMMARY:Les entreprises de Moselle ouvrent leurs portes pour les Journées du patrimoine  (À CONFIRMER)
