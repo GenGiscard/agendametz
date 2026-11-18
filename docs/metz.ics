@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:metz-ia-20261116-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261116T180000
 DTEND;TZID=Europe/Paris:20261116T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -35,7 +35,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261116-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261116T183000
 DTEND;TZID=Europe/Paris:20261116T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -45,19 +45,8 @@ URL:https://www.google.com/maps/search/?api=1&query=Bottle+Bar+Metz
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
-UID:metz-ia-20261116-3@gengiscard.github.io
-DTSTAMP:20261117T125727Z
-DTSTART;TZID=Europe/Paris:20261116T204500
-DTEND;TZID=Europe/Paris:20261116T220000
-SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
-LOCATION:Moyen Pont / Temple Neuf\, Île du Petit-Saulcy\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : GRATUIT\nLe spot photo le plus iconique de Metz au coucher du soleil.\nhttps://www.tourisme-metz.com/fr
-URL:https://www.tourisme-metz.com/fr
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
 UID:metz-ia-20261117-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261117T173000
 DTEND;TZID=Europe/Paris:20261117T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -68,18 +57,18 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261117-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
-DTSTART;TZID=Europe/Paris:20261117T200000
+DTSTAMP:20261118T125058Z
+DTSTART;TZID=Europe/Paris:20261117T204500
 DTEND;TZID=Europe/Paris:20261117T220000
-SUMMARY:Cuarteto Casals - Haydn\, Fábregas\, Schubert L'Arsenal Jean-Marie Rausch Mardi 17 (À CONFIRMER)
-LOCATION:Metz (voir fiche)\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-41298.php
-URL:https://metz.fr/agenda/fiche-41298.php
+SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
+LOCATION:Moyen Pont / Temple Neuf\, Île du Petit-Saulcy\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : GRATUIT\nLe spot photo le plus iconique de Metz au coucher du soleil.\nhttps://www.tourisme-metz.com/fr
+URL:https://www.tourisme-metz.com/fr
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261118-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261118T183000
 DTEND;TZID=Europe/Paris:20261118T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -90,7 +79,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261118-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261118T190000
 DTEND;TZID=Europe/Paris:20261118T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -101,7 +90,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261118-3@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261118T200000
 DTEND;TZID=Europe/Paris:20261118T220000
 SUMMARY:Metz Handball / Stella St Maur Les Arènes Mercredi 18 novembre 2026 à 20h (À CONFIRMER)
@@ -112,7 +101,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261119-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261119T193000
 DTEND;TZID=Europe/Paris:20261119T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -123,7 +112,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261119-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261119T200000
 DTEND;TZID=Europe/Paris:20261119T220000
 SUMMARY:Une assemblée éphémère Théâtre Bernard-Marie Koltès Du mardi 17 au jeudi 19 nove (À CONFIRMER)
@@ -134,7 +123,18 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261120-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
+DTSTART;TZID=Europe/Paris:20261120T200000
+DTEND;TZID=Europe/Paris:20261120T220000
+SUMMARY:Des fermetures de bretelles sur l’A31 entre Laxou et Metz en novembre 2026 (À CONFIRMER)
+LOCATION:Metz\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/fermetures-bretelles-a31-metz-nancy-novembre-2026-845249
+URL:https://tout-metz.com/fermetures-bretelles-a31-metz-nancy-novembre-2026-845249
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20261120-2@gengiscard.github.io
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261120T200000
 DTEND;TZID=Europe/Paris:20261120T220000
 SUMMARY:Chemin de glace\, grande roue XXL\, places réaménagées : les nouveautés du marché  (À CONFIRMER)
@@ -144,8 +144,8 @@ URL:https://tout-metz.com/chemin-glace-grande-roue-xxl-places-reamenagees-nouvea
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
-UID:metz-ia-20261120-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+UID:metz-ia-20261120-3@gengiscard.github.io
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261120T203000
 DTEND;TZID=Europe/Paris:20261120T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -156,7 +156,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261121-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261121T200000
 DTEND;TZID=Europe/Paris:20261121T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -167,7 +167,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261121-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261121T200000
 DTEND;TZID=Europe/Paris:20261121T220000
 SUMMARY:Dernière ligne droite avant l’ouverture du Sentier des Lanternes 2026 à Metz (ph (À CONFIRMER)
@@ -178,7 +178,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261122-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261122T200000
 DTEND;TZID=Europe/Paris:20261122T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -189,7 +189,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261122-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261122T200000
 DTEND;TZID=Europe/Paris:20261122T220000
 SUMMARY:Sport Tennis Compétition-tournoi Open Metz - Grand Est Les Arènes Du dimanche 15 (À CONFIRMER)
@@ -200,7 +200,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261123-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261123T180000
 DTEND;TZID=Europe/Paris:20261123T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -211,7 +211,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261123-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261123T183000
 DTEND;TZID=Europe/Paris:20261123T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -222,7 +222,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261124-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261124T173000
 DTEND;TZID=Europe/Paris:20261124T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -233,7 +233,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261124-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261124T204500
 DTEND;TZID=Europe/Paris:20261124T220000
 SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
@@ -244,7 +244,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261125-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261125T183000
 DTEND;TZID=Europe/Paris:20261125T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -255,7 +255,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261125-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261125T190000
 DTEND;TZID=Europe/Paris:20261125T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -266,7 +266,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261126-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261126T193000
 DTEND;TZID=Europe/Paris:20261126T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -277,7 +277,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261127-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261127T203000
 DTEND;TZID=Europe/Paris:20261127T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -288,7 +288,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261128-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261128T200000
 DTEND;TZID=Europe/Paris:20261128T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -299,7 +299,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261129-1@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261129T200000
 DTEND;TZID=Europe/Paris:20261129T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -310,7 +310,18 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261129-2@gengiscard.github.io
-DTSTAMP:20261117T125727Z
+DTSTAMP:20261118T125058Z
+DTSTART;TZID=Europe/Paris:20261129T200000
+DTEND;TZID=Europe/Paris:20261129T220000
+SUMMARY:À Montigny\, l’église Saint-Joseph va accueillir « Nocturna Mosella »\, un nouveau (À CONFIRMER)
+LOCATION:Metz\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/montigny-eglise-saint-joseph-accueillir-nocturna-mosella-nouveau-spectacle-immersif-fetes-2026-846947
+URL:https://tout-metz.com/montigny-eglise-saint-joseph-accueillir-nocturna-mosella-nouveau-spectacle-immersif-fetes-2026-846947
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
+UID:metz-ia-20261129-3@gengiscard.github.io
+DTSTAMP:20261118T125058Z
 DTSTART;TZID=Europe/Paris:20261129T200000
 DTEND;TZID=Europe/Paris:20261129T220000
 SUMMARY:Montigny-lès-Metz : le spectacle « Le Crépuscule des Pierres » prolongé jusqu’à  (À CONFIRMER)
