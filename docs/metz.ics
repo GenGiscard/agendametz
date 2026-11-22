@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:metz-ia-20261116-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261116T180000
 DTEND;TZID=Europe/Paris:20261116T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -35,7 +35,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261116-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261116T183000
 DTEND;TZID=Europe/Paris:20261116T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -46,7 +46,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261117-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261117T173000
 DTEND;TZID=Europe/Paris:20261117T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -57,7 +57,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261117-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261117T204500
 DTEND;TZID=Europe/Paris:20261117T220000
 SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
@@ -68,7 +68,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261118-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261118T183000
 DTEND;TZID=Europe/Paris:20261118T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -79,7 +79,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261118-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261118T190000
 DTEND;TZID=Europe/Paris:20261118T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -90,7 +90,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261119-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261119T193000
 DTEND;TZID=Europe/Paris:20261119T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -101,7 +101,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261120-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261120T203000
 DTEND;TZID=Europe/Paris:20261120T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -112,7 +112,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261121-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261121T200000
 DTEND;TZID=Europe/Paris:20261121T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -122,41 +122,8 @@ URL:https://www.lespeeddating.com/77-rencontres-metz-celibataires-57-moselle-spe
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
-UID:metz-ia-20261121-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
-DTSTART;TZID=Europe/Paris:20261121T200000
-DTEND;TZID=Europe/Paris:20261121T220000
-SUMMARY:Victoria’s Secret\, Tasty Crousty\, Madeleines de Liverdun : de nouvelles enseigne (À CONFIRMER)
-LOCATION:Metz\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/victorias-secret-tasty-crousty-madeleines-liverdun-nouvelles-enseignes-muse-2026-842597
-URL:https://tout-metz.com/victorias-secret-tasty-crousty-madeleines-liverdun-nouvelles-enseignes-muse-2026-842597
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20261121-3@gengiscard.github.io
-DTSTAMP:20261121T122022Z
-DTSTART;TZID=Europe/Paris:20261121T200000
-DTEND;TZID=Europe/Paris:20261121T220000
-SUMMARY:Noël à Metz : les marchés aux sapins font leur retour dès ce samedi (À CONFIRMER)
-LOCATION:Metz\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/noel-metz-marches-sapins-retour-demain-2026-842259
-URL:https://tout-metz.com/noel-metz-marches-sapins-retour-demain-2026-842259
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20261121-4@gengiscard.github.io
-DTSTAMP:20261121T122022Z
-DTSTART;TZID=Europe/Paris:20261121T200000
-DTEND;TZID=Europe/Paris:20261121T220000
-SUMMARY:Salon Oriaction à Metz : 3 jours pour préparer au mieux son orientation (À CONFIRMER)
-LOCATION:Metz\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir article\nRepéré via tout-metz.com — recouper l'horaire sur l'article.\nhttps://tout-metz.com/salon-oriaction-2026-metz-3-jours-preparer-orientation
-URL:https://tout-metz.com/salon-oriaction-2026-metz-3-jours-preparer-orientation
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
 UID:metz-ia-20261122-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261122T200000
 DTEND;TZID=Europe/Paris:20261122T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -167,7 +134,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261122-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261122T200000
 DTEND;TZID=Europe/Paris:20261122T220000
 SUMMARY:Sport Tennis Compétition-tournoi Open Metz - Grand Est Les Arènes Du dimanche 15 (À CONFIRMER)
@@ -178,18 +145,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261122-3@gengiscard.github.io
-DTSTAMP:20261121T122022Z
-DTSTART;TZID=Europe/Paris:20261122T200000
-DTEND;TZID=Europe/Paris:20261122T220000
-SUMMARY:Salon des Vins d'Auteurs - Plappevignes 2026 Bliiida Samedi 21 de 10h à 20h et d (À CONFIRMER)
-LOCATION:Metz (voir fiche)\, 57000 Metz
-DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-42243.php
-URL:https://metz.fr/agenda/fiche-42243.php
-CATEGORIES:IA
-END:VEVENT
-BEGIN:VEVENT
-UID:metz-ia-20261122-4@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261122T200000
 DTEND;TZID=Europe/Paris:20261122T220000
 SUMMARY:Dédica'Metz - Salon du livre pour toute la famille Hôtel de Ville de Metz Du sam (À CONFIRMER)
@@ -199,8 +155,19 @@ URL:https://metz.fr/agenda/fiche-41890.php
 CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
+UID:metz-ia-20261122-4@gengiscard.github.io
+DTSTAMP:20261122T122324Z
+DTSTART;TZID=Europe/Paris:20261122T200000
+DTEND;TZID=Europe/Paris:20261122T220000
+SUMMARY:David Castello-Lopes Metz Congrès-Robert Schuman Dimanche 22 novembre 2026 à 18h (À CONFIRMER)
+LOCATION:Metz (voir fiche)\, 57000 Metz
+DESCRIPTION:SCORE : 6/20\nBudget : voir fiche\nÉvénement daté repéré sur l'agenda officiel metz.fr.\nhttps://metz.fr/agenda/fiche-39838.php
+URL:https://metz.fr/agenda/fiche-39838.php
+CATEGORIES:IA
+END:VEVENT
+BEGIN:VEVENT
 UID:metz-ia-20261123-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261123T180000
 DTEND;TZID=Europe/Paris:20261123T194500
 SUMMARY:Dîner cambodgien — Angkor Wat
@@ -211,7 +178,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261123-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261123T183000
 DTEND;TZID=Europe/Paris:20261123T203000
 SUMMARY:Apéro cocktails — Bottle Bar
@@ -222,7 +189,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261124-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261124T173000
 DTEND;TZID=Europe/Paris:20261124T193000
 SUMMARY:Apéro jeux & arcade — Le Bonfire
@@ -233,7 +200,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261124-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261124T204500
 DTEND;TZID=Europe/Paris:20261124T220000
 SUMMARY:Shooting golden hour — Moyen Pont & Temple Neuf
@@ -244,7 +211,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261125-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261125T183000
 DTEND;TZID=Europe/Paris:20261125T200000
 SUMMARY:Séance d'essai boxe/MMA — Fight Club Metz (à confirmer) (À CONFIRMER)
@@ -255,7 +222,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261125-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261125T190000
 DTEND;TZID=Europe/Paris:20261125T210000
 SUMMARY:Ramen japonais — Kyôdaï Ramen
@@ -266,7 +233,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261126-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261126T193000
 DTEND;TZID=Europe/Paris:20261126T213000
 SUMMARY:Dîner pan-asiatique — Kung Pao
@@ -277,7 +244,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261127-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261127T203000
 DTEND;TZID=Europe/Paris:20261127T220000
 SUMMARY:Karaoké BOX privatif — soirée à la japonaise
@@ -288,7 +255,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261128-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261128T200000
 DTEND;TZID=Europe/Paris:20261128T220000
 SUMMARY:Speed Dating à Metz (vérifier la date & réserver) (À CONFIRMER)
@@ -299,7 +266,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261129-1@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261129T200000
 DTEND;TZID=Europe/Paris:20261129T221500
 SUMMARY:Ciné du soir au KLUB (VO)
@@ -310,7 +277,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261129-2@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261129T200000
 DTEND;TZID=Europe/Paris:20261129T220000
 SUMMARY:À Montigny\, l’église Saint-Joseph va accueillir « Nocturna Mosella »\, un nouveau (À CONFIRMER)
@@ -321,7 +288,7 @@ CATEGORIES:IA
 END:VEVENT
 BEGIN:VEVENT
 UID:metz-ia-20261129-3@gengiscard.github.io
-DTSTAMP:20261121T122022Z
+DTSTAMP:20261122T122324Z
 DTSTART;TZID=Europe/Paris:20261129T200000
 DTEND;TZID=Europe/Paris:20261129T220000
 SUMMARY:Montigny-lès-Metz : le spectacle « Le Crépuscule des Pierres » prolongé jusqu’à  (À CONFIRMER)
